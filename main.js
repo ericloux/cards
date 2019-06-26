@@ -70,5 +70,16 @@ for (let i = 0; i < myPeople.length; i++) {
             </footer>
         
         </div>`;
-    peopleContainer.innerHTML += personString;
 }
+
+peopleContainer.innerHTML += personString;
+
+peopleContainer.addEventListener("click", function(){
+    console.log("clicked!");
+
+    var bioClass = document.getElementsByClassName("bio");
+
+    for (var i = 0; i < bioClass.length; i++) {
+        bioClass[i].classList.add("yellow");
+    };
+})

@@ -4,7 +4,7 @@
 }
 
 .bio {
-    background-color:"#444444";
+    background-color:#444444;
     padding:0px 50px;
 }
 
@@ -15,4 +15,8 @@
 
 .container {
     border: 1px black solid;
+}
+
+.yellow {
+    background-color: yellow;
 }
